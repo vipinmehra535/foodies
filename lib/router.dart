@@ -9,8 +9,9 @@ Route<dynamic> generateRoute(RouteSettings setting) {
       return MaterialPageRoute(builder: (context) => RootApp());
     default:
       return MaterialPageRoute(
-          builder: (context) => Scaffold(
-                body: Center(),
-              ));
+        builder: (context) => Scaffold(
+          body: Center(),
+        ),
+      );
   }
 }

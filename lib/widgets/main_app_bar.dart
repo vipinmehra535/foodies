@@ -1,6 +1,7 @@
 import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
+import 'package:flutter/services.dart';
+
 import 'package:foodie_ui_kit/theme/colors.dart';
 import 'package:foodie_ui_kit/theme/fontsizes.dart';
 import 'package:foodie_ui_kit/theme/helper.dart';
@@ -18,7 +19,7 @@ class MainAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return AppBar(
         elevation: 0.8,
-        brightness: Brightness.light,
+        systemOverlayStyle: SystemUiOverlayStyle.light,
         backgroundColor: textWhite,
         automaticallyImplyLeading: false,
         primary: false,
@@ -65,7 +66,7 @@ class MainAppBar extends StatelessWidget {
                                 style: TextStyle(color: textWhite),
                               ),
                               child: Icon(
-                                EvilIcons.cart,
+                                Icons.shopping_cart,
                                 size: 30,
                               ),
                             ))
