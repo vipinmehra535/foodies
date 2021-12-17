@@ -30,7 +30,7 @@ const List storeItems = [
 
 List recommendedDishes = [
   {
-    "name": "McDonald's® (Atlanta, Ga - Moreland Ave)",
+    "name": "McDonald's®",
     "image":
         "https://images.pexels.com/photos/3609894/pexels-photo-3609894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "store": "The Meal Cart - Cheese - Fast Food",
@@ -38,7 +38,7 @@ List recommendedDishes = [
     "store_type": "food"
   },
   {
-    "name": "Dunkin' (2704 Candler Rd)",
+    "name": "Dunkin'",
     "image":
         "https://images.pexels.com/photos/4147849/pexels-photo-4147849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "store": "Breakfast and Brunch - Donuts",
@@ -46,7 +46,7 @@ List recommendedDishes = [
     "store_type": "food"
   },
   {
-    "name": "Fried or Die Chicken (2700 E College Ave)",
+    "name": "Fried or Die Chicken ",
     "image":
         "https://images.pexels.com/photos/6169449/pexels-photo-6169449.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "store": "Fried Chicken - Sandwiches - Southern",
@@ -66,7 +66,7 @@ const List storeList = [
     "store_type": "food"
   },
   {
-    "name": "Most Delicious Wings and Pasta (777 Oak St)",
+    "name": "Most Delicious Wings and Pasta",
     "image":
         "https://images.pexels.com/photos/793785/pexels-photo-793785.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "is_open": true,
@@ -75,7 +75,7 @@ const List storeList = [
     "store_type": "food"
   },
   {
-    "name": "Califlower Pizza (Healthy Pizzas & More- Forrest)",
+    "name": "Califlower Pizza",
     "image":
         "https://images.pexels.com/photos/5967859/pexels-photo-5967859.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "is_open": true,
