@@ -251,10 +251,69 @@ class _StoreDetailPageState extends State<StoreDetailPage> {
   Widget getFooter() {
     var size = MediaQuery.of(context).size;
     return Container(
-        width: size.width,
-        height: 90,
-        decoration: BoxDecoration(
-          color: textWhite,
-        ));
+      width: size.width,
+      height: 90,
+      decoration: BoxDecoration(
+        color: textWhite,
+        border: Border(
+            top: BorderSide(width: 2, color: textBlack.withOpacity(0.06))),
+      ),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+            width: size.width - 40,
+            height: 50,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(12),
+              color: primary,
+            ),
+            child: Padding(
+              padding: const EdgeInsets.only(left: 20, right: 20),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(color: textWhite),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Center(
+                        child: Text(
+                          "2",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                            color: textWhite,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Text(
+                    "View your cart",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                      color: textWhite,
+                    ),
+                  ),
+                  Text(
+                    "\$3.98",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                      color: textWhite,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          )
+        ],
+      ),
+    );
   }
 }

@@ -26,30 +26,9 @@ class _RootAppState extends State<RootApp> {
       index: pageIndex,
       children: [
         HomePage(),
-        Center(
-          child: Text(
-            "Order",
-            style: TextStyle(
-              fontSize: 20,
-            ),
-          ),
-        ),
-        Center(
-          child: Text(
-            "Notification",
-            style: TextStyle(
-              fontSize: 20,
-            ),
-          ),
-        ),
-        Center(
-          child: Text(
-            "Profile",
-            style: TextStyle(
-              fontSize: 20,
-            ),
-          ),
-        )
+        HomePage(),
+        HomePage(),
+        HomePage(),
       ],
     );
   }
